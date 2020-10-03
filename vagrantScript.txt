@@ -11,5 +11,9 @@ django-admin.py startproject profiles_project .
 python manage.py startapp profiles_api
 python manage.py runserver 0.0.0.0:8000
 
+### model migration
 python manage.py makemigrations profiles_api
 python manage.py migrate
+
+### super user
+python manage.py createsuperuser
